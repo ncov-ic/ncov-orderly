@@ -70,6 +70,7 @@ RUN install2.r --error \
   tidyr \
   tidyverse \
   vaultr \
+  viridis \
   waffle \
   zoo
 
