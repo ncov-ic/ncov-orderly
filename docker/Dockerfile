@@ -58,6 +58,7 @@ RUN install2.r --error \
   ggplot2 \
   ggpubr \
   ggthemes \
+  kableExtra \
   knitr \
   lme4 \
   lubridate \
