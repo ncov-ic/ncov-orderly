@@ -47,6 +47,7 @@ COPY bin /usr/local/bin/
 RUN install2.r --error \
   RColorBrewer \
   Rfast \
+  VGAM \
   binom \
   concaveman \
   cyphr \
@@ -63,6 +64,7 @@ RUN install2.r --error \
   openxlsx \
   orderly \
   pander \
+  pscl \
   readxl \
   rmarkdown \
   tidyr \
