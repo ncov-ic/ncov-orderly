@@ -1,4 +1,4 @@
-FROM vimc/orderly.server:vimc-3373
+FROM vimc/orderly.server:master
 
 RUN apt-get update || apt-get update && apt-get install -y git
 
@@ -55,9 +55,11 @@ RUN install2.r --error \
   distcrete \
   dplyr \
   drat \
+  googlesheets4 \
   ggplot2 \
   ggpubr \
   ggthemes \
+  janitor \
   kableExtra \
   knitr \
   lme4 \
@@ -70,6 +72,7 @@ RUN install2.r --error \
   rmarkdown \
   tidyr \
   tidyverse \
+  subplex \
   vaultr \
   viridis \
   waffle \
