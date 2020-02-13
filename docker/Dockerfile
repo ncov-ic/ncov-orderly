@@ -53,9 +53,12 @@ RUN install2.r --error \
   cyphr \
   deming \
   distcrete \
+  doFuture \
   dplyr \
   drat \
   googlesheets4 \
+  furrr \
+  future \
   ggplot2 \
   ggpubr \
   ggthemes \
@@ -70,6 +73,7 @@ RUN install2.r --error \
   pscl \
   readxl \
   rmarkdown \
+  rootSolve \
   tidyr \
   tidyverse \
   subplex \
