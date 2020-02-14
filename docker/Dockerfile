@@ -89,4 +89,6 @@ RUN install_packages --repo "https://imperialebola2018.github.io/drat" \
   earlyR \
   projections
 
+RUN install_remote mrc-ide/drjacoby
+
 WORKDIR /orderly
