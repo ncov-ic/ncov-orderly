@@ -68,7 +68,6 @@ RUN install2.r --error \
   lme4 \
   lubridate \
   openxlsx \
-  orderly \
   pander \
   pscl \
   readxl \
