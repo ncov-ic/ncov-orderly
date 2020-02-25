@@ -58,6 +58,7 @@ RUN install2.r --error \
   dplyr \
   drat \
   googlesheets4 \
+  flextable \
   furrr \
   future \
   ggplot2 \
