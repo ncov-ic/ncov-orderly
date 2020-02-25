@@ -82,7 +82,7 @@ RUN install2.r --error \
   waffle \
   zoo
 
-RUN install_packages --repo "https://imperialebola2018.github.io/drat" \
+RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   EpiEstim \
   epitrix \
   incidence \
