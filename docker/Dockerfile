@@ -57,27 +57,30 @@ RUN install2.r --error \
   doFuture \
   dplyr \
   drat \
-  googlesheets4 \
   flextable \
   furrr \
   future \
   ggplot2 \
   ggpubr \
   ggthemes \
+  googlesheets4 \
   janitor \
   kableExtra \
   knitr \
   lme4 \
   lubridate \
+  matrixStats \
   openxlsx \
   pander \
+  patchwork \
   pscl \
   readxl \
   rmarkdown \
   rootSolve \
+  rstan \
+  subplex \
   tidyr \
   tidyverse \
-  subplex \
   vaultr \
   viridis \
   waffle \
