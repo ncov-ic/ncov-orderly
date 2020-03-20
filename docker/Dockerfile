@@ -89,7 +89,6 @@ RUN install2.r --error \
   reticulate \
   rmarkdown \
   rootSolve \
-  rstan \
   subplex \
   tidyr \
   tidyverse \
