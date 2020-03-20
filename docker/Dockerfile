@@ -9,6 +9,7 @@ RUN apt-get update \
     imagemagick \
     lmodern \
     python3-pip \
+    python3-setuptools \
     texlive-fonts-recommended \
     texlive-humanities \
     texlive-latex-extra \
