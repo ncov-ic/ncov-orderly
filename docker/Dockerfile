@@ -53,6 +53,7 @@ COPY bin /usr/local/bin/
 
 # Add new packages here (in alphabetical order)
 RUN install2.r --error \
+  GenBinomApps \
   Hmisc \
   RColorBrewer \
   Rfast \
@@ -77,6 +78,7 @@ RUN install2.r --error \
   knitr \
   lme4 \
   lubridate \
+  maps \
   matrixStats \
   openxlsx \
   pander \
