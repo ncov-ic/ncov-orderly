@@ -8,6 +8,7 @@ RUN apt-get update \
     ghostscript \
     imagemagick \
     lmodern \
+    python3-pip \
     texlive-fonts-recommended \
     texlive-humanities \
     texlive-latex-extra \
@@ -40,6 +41,13 @@ RUN apt-get update && apt-get install -y \
   libudunits2-dev \
   libv8-dev \
   libxml2-dev
+
+RUN pip3 install \
+  matplotlib \
+  numpy \
+  pandas \
+  pyshp \
+  xlrd
 
 COPY bin /usr/local/bin/
 
@@ -75,6 +83,7 @@ RUN install2.r --error \
   patchwork \
   pscl \
   readxl \
+  reticulate \
   rmarkdown \
   rootSolve \
   rstan \
