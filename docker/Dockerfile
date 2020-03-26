@@ -58,6 +58,7 @@ RUN install2.r --error \
   Hmisc \
   RColorBrewer \
   Rfast \
+  TTR \
   VGAM \
   binom \
   concaveman \
@@ -91,6 +92,7 @@ RUN install2.r --error \
   rootSolve \
   subplex \
   tidyr \
+  tidyquant \
   tidyverse \
   vaultr \
   viridis \
