@@ -61,6 +61,7 @@ RUN install2.r --error \
   TTR \
   VGAM \
   binom \
+  cdlTools \
   concaveman \
   cyphr \
   deming \
