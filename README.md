@@ -1,5 +1,7 @@
 # ncov-orderly
 
+[![Build status](https://badge.buildkite.com/c46c74b1e9d8e487dd701a8fae599582d971a98e6d1e303bc4.svg)](https://buildkite.com/mrc-ide/ncov-orderly)
+
 This is the docker container for [ncov-outputs](https://github.com/ncov-ic/ncov-outputs).  It exists outside that repository because otherwise every new report we use risks dragging in a new LaTeX installation.
 
 This repo is a fork of [`montagu-orderly`](https://github.com/vimc/montagu-orderly) with minor modifications
