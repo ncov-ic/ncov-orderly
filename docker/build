@@ -9,3 +9,5 @@ docker build --pull \
        -t $TAG_BRANCH \
        -f docker/Dockerfile \
        .
+
+docker push $TAG_SHA
