@@ -34,4 +34,4 @@ Get a shell on the container with
 
 ## Building the image
 
-The image is built on the [VIMC teamcity server](http://teamcity.montagu.dide.ic.ac.uk:8111/viewType.html?buildTypeId=montagu_Orderly_NcovOrderly_Build), as it is too large to build on travis now (build times out after an hour).
+The image is built on [Buildkite](https://buildkite.com/mrc-ide/ncov-orderly), as it is too large to build on travis now (build times out after an hour).
