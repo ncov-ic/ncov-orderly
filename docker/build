@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -ex
 
 HERE=$(dirname $0)
 . $HERE/common
@@ -9,3 +9,5 @@ docker build --pull \
        -t $TAG_BRANCH \
        -f docker/Dockerfile \
        .
+
+docker push $TAG_SHA
