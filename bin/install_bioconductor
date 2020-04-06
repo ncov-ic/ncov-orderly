@@ -1,0 +1,16 @@
+#!/usr/bin/env Rscript
+'Usage:
+install_bioconductor <package>...' -> usage
+opts <- docopt::docopt(usage)
+
+packages <- opts$package
+
+if (!requireNamespace("BiocManager", quietly = TRUE)) {
+  install.packages("BiocManager")
+}
+BiocManager::install(packages, update = FALSE)
+
+msg <- setdiff(packages, .packages(TRUE))
+if (length(msg) > 0L) {
+  stop("Failed to install: ", paste(msg, collapse = ", "))
+}

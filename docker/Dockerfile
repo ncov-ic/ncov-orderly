@@ -54,7 +54,9 @@ RUN install2.r --error \
   binom \
   cdlTools \
   concaveman \
+  countrycode \
   cyphr \
+  dde \
   deming \
   distcrete \
   doFuture \
@@ -73,30 +75,41 @@ RUN install2.r --error \
   lme4 \
   lubridate \
   maps \
+  maptools \
   matrixStats \
+  odin \
   openxlsx \
   pander \
   patchwork \
   pscl \
   readxl \
   reticulate \
+  rgdal \
+  rgeos \
   rmarkdown \
   rootSolve \
+  socialmixr \
   subplex \
-  tidyr \
   tidyquant \
+  tidyr \
   tidyverse \
   vaultr \
   viridis \
   waffle \
+  xtable \
   zoo
+
+RUN install_bioconductor \
+  ggtree \
+  treeio
 
 RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   EpiEstim \
   epitrix \
   incidence \
   earlyR \
-  projections
+  projections \
+  sircovid
 
 RUN install_remote mrc-ide/drjacoby
 
