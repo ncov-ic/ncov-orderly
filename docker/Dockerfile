@@ -91,6 +91,10 @@ RUN install2.r --error \
   waffle \
   zoo
 
+RUN install_bioconductor \
+  ggtree \
+  treeio
+
 RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   EpiEstim \
   epitrix \
