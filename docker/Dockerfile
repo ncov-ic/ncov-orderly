@@ -53,6 +53,7 @@ RUN install2.r --error \
   Rfast \
   TTR \
   VGAM \
+  arrow \
   binom \
   cdlTools \
   concaveman \
@@ -111,7 +112,8 @@ RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   incidence \
   earlyR \
   projections \
-  sircovid
+  sircovid \
+  pointr
 
 RUN install_remote mrc-ide/drjacoby
 
