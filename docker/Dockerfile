@@ -1,6 +1,6 @@
 FROM vimc/orderly.server:master
 
-RUN apt-get update || apt-get update && apt-get install -y \
+RUN apt-get update && apt-get update && apt-get install -y \
   git \
   libgit2-dev
 
