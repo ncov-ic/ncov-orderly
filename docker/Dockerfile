@@ -1,6 +1,8 @@
 FROM vimc/orderly.server:master
 
-RUN apt-get update || apt-get update && apt-get install -y git
+RUN apt-get update && apt-get update && apt-get install -y \
+  git \
+  libgit2-dev
 
 # Install LaTeX
 RUN apt-get update \
@@ -51,6 +53,7 @@ RUN install2.r --error \
   Rfast \
   TTR \
   VGAM \
+  arrow \
   binom \
   cdlTools \
   concaveman \
@@ -65,6 +68,7 @@ RUN install2.r --error \
   flextable \
   furrr \
   future \
+  gert \
   ggplot2 \
   ggpubr \
   ggthemes \
@@ -72,7 +76,6 @@ RUN install2.r --error \
   janitor \
   kableExtra \
   knitr \
-  lme4 \
   lubridate \
   maps \
   maptools \
@@ -109,7 +112,8 @@ RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   incidence \
   earlyR \
   projections \
-  sircovid
+  sircovid \
+  pointr
 
 RUN install_remote mrc-ide/drjacoby
 
