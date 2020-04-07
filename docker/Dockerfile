@@ -61,6 +61,7 @@ RUN install2.r --error \
   cyphr \
   dde \
   deming \
+  descr \
   distcrete \
   doFuture \
   dplyr \
@@ -91,6 +92,7 @@ RUN install2.r --error \
   rgeos \
   rmarkdown \
   rootSolve \
+  sfmisc \
   socialmixr \
   subplex \
   tidyquant \
