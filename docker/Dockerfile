@@ -75,7 +75,6 @@ RUN install2.r --error \
   janitor \
   kableExtra \
   knitr \
-  lme4 \
   lubridate \
   maps \
   maptools \
