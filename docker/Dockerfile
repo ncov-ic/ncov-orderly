@@ -92,7 +92,7 @@ RUN install2.r --error \
   rgeos \
   rmarkdown \
   rootSolve \
-  sfmisc \
+  sfsmisc \
   socialmixr \
   subplex \
   tidyquant \
