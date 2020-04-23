@@ -113,6 +113,7 @@ RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   epitrix \
   incidence \
   earlyR \
+  orderlyweb \
   projections \
   sircovid \
   pointr
