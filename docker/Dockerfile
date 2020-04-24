@@ -101,6 +101,7 @@ RUN install2.r --error \
   vaultr \
   viridis \
   waffle \
+  writexl \
   xtable \
   zoo
 
