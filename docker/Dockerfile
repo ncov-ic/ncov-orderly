@@ -123,6 +123,7 @@ RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   orderlyweb \
   projections \
   sircovid \
+  pika \
   pointr
 
 RUN install_remote mrc-ide/drjacoby
