@@ -1,18 +1,9 @@
 FROM vimc/orderly.server:master
 
-RUN apt-get update && \
-        apt-get update && \
-        apt-get install -y
-            gnupg2
-            software-properties-common && \
-        apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \
-            C2518248EEA14886 && \
-        add-apt-repository -y ppa:cran/poppler && \
-        apt-get update && \
-        apt-get install -y \
-            git \
-            libgit2-dev \
-            libpoppler-cpp-dev
+RUN apt-get update && apt-get install -y \
+  git \
+  libgit2-dev \
+  libpoppler-cpp-dev
 
 # Install LaTeX
 RUN apt-get update \
