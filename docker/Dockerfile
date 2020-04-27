@@ -1,8 +1,9 @@
 FROM vimc/orderly.server:master
 
-RUN apt-get update && apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
   git \
-  libgit2-dev
+  libgit2-dev \
+  libpoppler-cpp-dev
 
 # Install LaTeX
 RUN apt-get update \
@@ -85,6 +86,7 @@ RUN install2.r --error \
   openxlsx \
   pander \
   patchwork \
+  pdftools \
   pscl \
   readxl \
   reticulate \
@@ -101,6 +103,7 @@ RUN install2.r --error \
   vaultr \
   viridis \
   waffle \
+  writexl \
   xtable \
   zoo
 
