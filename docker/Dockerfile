@@ -67,6 +67,7 @@ RUN install2.r --error \
   doFuture \
   dplyr \
   drat \
+  extraDistr \
   flextable \
   furrr \
   future \
