@@ -77,7 +77,6 @@ RUN install2.r --error \
   future \
   gert \
   ggplot2 \
-  ggpubr \
   ggthemes \
   googlesheets4 \
   janitor \
