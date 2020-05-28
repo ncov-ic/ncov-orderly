@@ -3,7 +3,12 @@ FROM vimc/orderly.server:master
 RUN apt-get update && apt-get install -y \
   git \
   libgit2-dev \
-  libpoppler-cpp-dev
+  libpoppler-cpp-dev \
+  python3-pip
+
+RUN pip3 install \
+  crayons \
+  mechanicalsoup
 
 # Install LaTeX
 RUN apt-get update \
@@ -67,12 +72,12 @@ RUN install2.r --error \
   doFuture \
   dplyr \
   drat \
+  extraDistr \
   flextable \
   furrr \
   future \
   gert \
   ggplot2 \
-  ggpubr \
   ggthemes \
   googlesheets4 \
   janitor \
@@ -119,6 +124,7 @@ RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   orderlyweb \
   projections \
   sircovid \
+  pika \
   pointr
 
 RUN install_remote mrc-ide/drjacoby
