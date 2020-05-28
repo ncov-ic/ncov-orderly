@@ -3,7 +3,12 @@ FROM vimc/orderly.server:master
 RUN apt-get update && apt-get install -y \
   git \
   libgit2-dev \
-  libpoppler-cpp-dev
+  libpoppler-cpp-dev \
+  python3-pip
+
+RUN pip3 install \
+  crayons \
+  mechanicalsoup
 
 # Install LaTeX
 RUN apt-get update \
