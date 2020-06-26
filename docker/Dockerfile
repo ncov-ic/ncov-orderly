@@ -80,6 +80,7 @@ RUN install2.r --error \
   ggplot2 \
   ggthemes \
   googlesheets4 \
+  igraph \
   janitor \
   kableExtra \
   knitr \
@@ -100,6 +101,7 @@ RUN install2.r --error \
   rmarkdown \
   rootSolve \
   sfsmisc \
+  shapes \
   socialmixr \
   subplex \
   tidyquant \
