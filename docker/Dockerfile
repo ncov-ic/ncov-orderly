@@ -125,7 +125,7 @@ RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   projections \
   sircovid \
   pika \
-  pointr
+  spud
 
 RUN install_remote mrc-ide/drjacoby
 
