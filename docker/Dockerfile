@@ -37,7 +37,7 @@ RUN wget https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pando
   && rm pandoc-${PANDOC_VERSION}-1-amd64.deb
 
 # Install wkhtmltox
-RUN apt-get update && apt-get install install -y \
+RUN apt-get update && apt-get install -y \
         xfonts-75dpi \
         xfonts-base \
         xfonts-encodings \
