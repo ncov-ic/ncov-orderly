@@ -36,6 +36,16 @@ RUN wget https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pando
   && dpkg --install pandoc-${PANDOC_VERSION}-1-amd64.deb \
   && rm pandoc-${PANDOC_VERSION}-1-amd64.deb
 
+# Install wkhtmltox
+RUN apt-get update && apt-get install install -y \
+        xfonts-75dpi \
+        xfonts-base \
+        xfonts-encodings \
+        xfonts-utils \
+        && wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb \
+        && dpkg -i ./wkhtmltox_0.12.6-1.bionic_amd64.deb \
+        && rm ./wkhtmltox_0.12.6-1.bionic_amd64.deb
+
 # system dependencies required to install and run R packages (in
 # alphabetical order)
 RUN apt-get update && apt-get install -y \
