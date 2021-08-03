@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y \
   git \
   libgit2-dev \
   libpoppler-cpp-dev \
+  nano \
   python3-pip
 
 RUN pip3 install \
@@ -65,6 +66,7 @@ COPY bin /usr/local/bin/
 RUN install2.r --error \
   GenBinomApps \
   Hmisc \
+  R.utils \
   RColorBrewer \
   Rfast \
   TTR \
@@ -79,6 +81,7 @@ RUN install2.r --error \
   deming \
   descr \
   distcrete \
+  docxtractr \
   doFuture \
   dplyr \
   drat \
@@ -88,10 +91,12 @@ RUN install2.r --error \
   future \
   gert \
   ggplot2 \
+  ggpubr \
   ggthemes \
   googlesheets4 \
   janitor \
   kableExtra \
+  khroma \
   knitr \
   lubridate \
   maps \
@@ -129,11 +134,13 @@ RUN install_bioconductor \
 RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   EpiEstim \
   epitrix \
+  fstorr \
   incidence \
   earlyR \
   orderlyweb \
   projections \
   sircovid \
+  spimalot \
   pika \
   spud
 
