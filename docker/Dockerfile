@@ -131,8 +131,9 @@ RUN install_bioconductor \
   ggtree \
   treeio
 
-RUN install_packages --repo "https://ncov-ic.github.io/drat" \
+RUN install_packages --repo "https://ncov-ic.r-universe.dev" \
   EpiEstim \
+  drjacoby \
   epitrix \
   fstorr \
   incidence \
@@ -143,7 +144,5 @@ RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   spimalot \
   pika \
   spud
-
-RUN install_remote mrc-ide/drjacoby
 
 WORKDIR /orderly
